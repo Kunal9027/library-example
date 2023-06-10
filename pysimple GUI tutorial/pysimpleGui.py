@@ -8,7 +8,7 @@ layout = [  [sg.Text('Hello')],
             [sg.Button('Ok'), sg.Button('Exit')] ]
 
 # Create the Window
-window = sg.Window('Window Title', layout)
+window = sg.Window('GUI by Kunal', layout)
 # Event Loop to process "events" and get the "values" of the inputs
 while True:
     event, values = window.read()
