@@ -9,9 +9,8 @@
 </head>
 
 <body>
-  <nav
-   class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Hello</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">MY-Todo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,21 +24,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -48,33 +32,41 @@
     </div>
   </nav>
 
-  
-  <div class="contanier">
+  <div class="container">
     <form>
-    <div class="mb-3">
-      <label for="todo" class="form-label">todo</label>
-      <input type="text" class="form-control" id="todo" aria-describedby="emailHelp">
+      <div class="mb-3">
+        <label for="todo" class="form-label">Todo</label>
+        <input type="text" class="form-control" id="todo" aria-describedby="emailHelp">
       </div>
 
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+      <div class="mb-3">
+        <label for="AddItem" class="form-label">Add item</label>
+        <input type="text" class="form-control" id="AddItem">
+      </div>
+      <button type="Add" class="btn btn-primary">Add</button>
+    </form>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+        <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+      </li>
+      <li class="list-group-item">
+        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+        <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+      </li>
+      <li class="list-group-item">
+        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+        <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+      </li>
+    </ul>
   </div>
 
+  
 
-  <h1> hello its page 1 </h1>
-  hello fellow </n>
-  {% for i in range (10) %}
-  <p>Jai shree Ram </n>
-  </p>
-  {% endfor %}
+  
 
+ <!-- here are all JS links that copyfrom bootstrap  -->
 
-
-  <!-- here are all JS links that copyfrom bootstrap  -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
