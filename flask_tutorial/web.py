@@ -8,7 +8,7 @@ def home():
 
 
 if __name__=="__main__":
-    app.run(debug=True) 
+    app.run(debug=True) #debug true means it means app is running in debug mode
 
 # when we use debug=True it auto start the server after adding new changes but never use this while your server is also used by some one else
 # port is used to change port of the web site 
